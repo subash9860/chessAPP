@@ -1,16 +1,13 @@
 # chessgame
 
-A new Flutter project.
+This is the simple chess app create by using flutter and dart.
 
-## Getting Started
+Here,i have used library for moves and for the  maintenances of game state.
 
-This project is a starting point for a Flutter application.
+chess.dart is a library for legal chess move generation, maintenance of chess game state, and conversion to and from the formats FEN and PGN.
+https://pub.dev/packages/chess
 
-A few resources to get you started if this is your first Flutter project:
+For chess board , i have used Chessboard Widget . 
+This package provides just the chessboard. The game logic can be implemented using chess library.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://pub.dev/packages/flutter_stateless_chessboard
